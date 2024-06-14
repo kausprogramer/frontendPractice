@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+span {
+  font-size: 20px;
+}
+span:hover {
+  cursor: pointer;
+}
+
+.yes {
+  color: rgb(233, 202, 5);
+}
