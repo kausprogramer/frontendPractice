@@ -1,0 +1,26 @@
+.accordianContainer{
+    border: 1px solid black;
+    margin: 10px ;
+    border-radius: 10px;
+    width: 30vw;
+    text-align:center;
+    
+}
+.plus{
+    margin-top: 22px;
+}
+.minus{
+    width: 30px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.accordianHeader{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
