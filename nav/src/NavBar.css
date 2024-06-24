@@ -1,0 +1,100 @@
+/* NavBar.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.navbar-menu a {
+  margin-left: 10px;
+}
+
+.navbar-toggle {
+  display: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Keep items in a row */
+    align-items: center;
+    padding: 14px 20px;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    order: 2; /* Ensure menu is below brand and toggle */
+  }
+
+  .navbar-menu a {
+    text-align: left;
+    padding: 10px 20px;
+    width: 100%;
+    border-top: 1px solid #575757;
+  }
+
+  .navbar-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: auto;
+    order: 1; /* Ensure toggle is to the right of the brand */
+  }
+
+  .navbar-menu.active {
+    max-height: 300px; /* Adjust according to content */
+    display: flex;
+    align-items: flex-start;
+  }
+}
