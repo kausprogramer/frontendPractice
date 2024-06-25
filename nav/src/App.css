@@ -1,8 +1,15 @@
-/* App.css */
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-.content {
-  padding: 20px;
+div {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1.2em;
 }

@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './NavBar';
+import React from 'react';
+import InfiniteScroll from './InfiniteScroll';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <NavBar/>
-      </header>
+      <h1>Infinite Scroll Example</h1>
+      <InfiniteScroll />
     </div>
   );
 }
