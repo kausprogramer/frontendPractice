@@ -1,0 +1,43 @@
+/* ProductList.css */
+.ProductList {
+    text-align: left;
+  }
+  
+  .ProductList-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .ProductList-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .ProductList-item h3 {
+    margin: 10px 0;
+  }
+  
+  .ProductList-item p {
+    margin: 5px 0;
+  }
+  
+  .btn-add {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-add:hover {
+    background-color: #218838;
+  }
+  

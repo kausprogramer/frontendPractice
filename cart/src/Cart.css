@@ -1,0 +1,39 @@
+/* Cart.css */
+.Cart {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .Cart-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .Cart-item-details {
+    text-align: left;
+  }
+  
+  .btn-remove {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-remove:hover {
+    background-color: #c82333;
+  }
+  
